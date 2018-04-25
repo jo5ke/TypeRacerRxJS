@@ -1,0 +1,32 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+.header {
+    text-align: center;
+    background: yellow;
+    .header__title {
+        font-size: 40px;
+    }
+    .header__subtitle {
+        font-size: 28px;
+    }
+}
+
+.main {
+    .main__starting {
+        visibility: hidden;
+        transition: all 0.3s;
+        #main--time {
+            color: green;
+        }
+    }
+    .main__text {
+        p {
+            font-size: 24px;
+        }
+    }
+    .main__log {
+        p {
+            font-size: 24px;
+            color: #74cc7f;
+        }
+    }
+}
